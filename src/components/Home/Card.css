@@ -1,3 +1,16 @@
 .picture {
     width: 100%;
 }
+
+.icon_area {
+    margin-bottom: 5px;
+}
+
+.icon_item {
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}
+
+#likeIcon {
+    color:#ff0000;
+}
