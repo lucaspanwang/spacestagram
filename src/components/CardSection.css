@@ -32,6 +32,7 @@
   .cards_item_link {
     display:inline-block;
     padding-bottom: 15px;
+    margin-left: 5px;
     margin-bottom: 40px;
     width: 250px;
     background:#ffffff;

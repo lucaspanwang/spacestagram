@@ -11,8 +11,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact element={<Home />} />
-          <Route path='/likes' exact element={<Likes />} />
+          <Route path='/spacestagram/' exact element={<Home />} />
+          <Route path='/spacestagram/likes' exact element={<Likes />} />
         </Routes>
       </Router>
     </>

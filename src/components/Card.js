@@ -15,7 +15,9 @@ function Card(props) {
             localStorage.setItem(props.date, 'liked');
         } else {
             localStorage.removeItem(props.date);
-            setCanShow(false);
+            if (props.onlyShowLikes) {
+                setCanShow(false);
+            }
         }
     }
 

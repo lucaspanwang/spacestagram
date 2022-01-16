@@ -13,7 +13,7 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                    <Link to='/spacestagram/' className='navbar-logo' onClick={closeMobileMenu}>
                         <img style={{ width: "50px" }} shape="circle" src={logo} />
                         <div style={{ marginLeft: '10px' }}><p className='nav-title1'>Spacestagram</p> <p className='nav-title2'>Image-sharing from NASA</p>
                         </div>
@@ -23,13 +23,13 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/spacestagram/' className='nav-links' onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link
-                                to='/likes'
+                                to='/spacestagram/likes'
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
