@@ -37,7 +37,7 @@ function Card(props) {
             {isImage && canShow && <li id='cards' className='cards_item'>
                 <div className='cards_item_link' >
                     <div className="picture_area">
-                        <img className="picture" src={props.hdurl} />
+                        <img className="picture" src={props.hdurl} alt="picture" />
                     </div>
                     <div className='cards_item_info'>
                         <h4 >{props.title}</h4>
