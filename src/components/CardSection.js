@@ -1,8 +1,6 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { Menu, Dropdown, Button, Input, Space } from 'antd';
+import React from 'react';
 import './CardSection.css';
 import Card from './Card';
-import { useLocation } from 'react-router';
 
 function CardSection(props) {
     return (

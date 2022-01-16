@@ -1,8 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import { HeartOutlined, HeartFilled, PlusCircleOutlined, MinusCircleOutlined } from '@ant-design/icons';
-import { Avatar, Modal, Button, Divider, Tag, Image } from 'antd';
-import { Checkbox } from 'antd';
-import { Calendar } from 'antd';
 import "./Card.css";
 
 function Card(props) {

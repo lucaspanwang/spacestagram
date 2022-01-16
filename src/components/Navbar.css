@@ -79,13 +79,6 @@
     display: none;
   }
   
-  .docs__infor__pic-wrap {
-    position: relative;
-    width: 100%;
-    /* background-color: yellow; */
-    overflow: hidden;
-  }
-  
   .doc_infor_detail{
     position:absolute;
     color:black;
