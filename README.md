@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Spacestagram
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive website to share and manage images from NASA API.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## About/Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project requires to build an app to help share photos from one of NASA's image APIs. To satisfy users using different devices, this app is made as a responsive website, which can perfectly show the photos no matter the length of the width of the device.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The live version of this app is https://lucaspanwang.github.io/spacestagram/
 
-### `npm test`
+Feel free to browse it with any device you like.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![overview](./overview_imgs/overview.jpg)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## List of Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Postings of images from NASA API and corresponding information will **display respontively** according to the width of the device.
+2. The user can choose different page on the **nav bar**. The status of the nav bar will also change according to the width of the browser.
+3. Users can click the **[heart] icon** to like or unlike an image. The [heart] icon will turn red if this image is liked.
+4. The app will **save likes** if the user leaves or reloads the page.
+5. There is a **Likes brand page** for users to see what images have they liked. If they unlike an image in this page, the image will be eliminated.
+6. The user can click the **[plus] button** to show more information about the photos. Similarly, they can click the **[minus] button** to hide the expanded text.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies choices
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is mainly built with **JavaScript**, **React**, **Hooks** and **Ant Design**.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The **responsive feature** of the website is mainly developed with **Flex-Layout** and **CSS @media Rules**.
